@@ -2,19 +2,36 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>km + rs calc</title>
-</head>
+<title>CabTypes_types</title>
+<form action="getKm.html">
 <center>
-<h1>Rs estimation</h1>
+<h1>Cab types available</h1>
+</head>
 <body>
-<form action="gstCalc.html">
-<label>Enter the number of Km you want to travel</label>
-<input type="number" name="km" placeholder="No of Km" required>
-
+<table border="1">
+<thead>
+<tr><th>S.No</th><th>CAR TYPE</th><th> Rs </th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>Mini</td><td>RS 10 per Km</td>
+<tr><td>2</td><td>Micro</td><td>Rs 20 per Km</td>
+<tr><td>3</td><td>Macro</td><td>Rs 30 per Km</td>
+</tbody>
+</table>
+<br />
+<label for= "cars">Select your choice</label>
+<select id= "cars" name="cars">
+<option value="choose">Choose one</option>
+<option value="mini">Mini</option>
+<option value="micro">Micro</option>
+<option value="macro">Macro</option>
+<br />
+</select>
 <br />
 <br />
 <button>Submit</button>
 </center>
+
 </form>
 </body>
 </html>
