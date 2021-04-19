@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>60+ --> 50% off</title>
+</head>
+<body>
+<center>
+<h1>50% discount for 60+ age</h1>
+<form action="final.html">
+<table>
+<tbody>
+<tr><td>Your travel charge estimate</td><td>   </td><td>Rs.00</td>
+<tr><td>Bill amount due to peak hours</td><td>   </td><td>Rs.00</td>
+<tr><td>Your travel charge estimate with GST</td><td>  </td><td>Rs.00</td>
+<tr><td>Your travel charge estimate with 50% discount</td><td>  </td><td>Rs.00</td>
+</tbody>
+</table>
+<br />
+<br />
+<button>Next</button>
+</form>
+</center>
+</body>
+</html>
